@@ -4,18 +4,27 @@ block content
     h1= title
     p Welcome to our test
 
-    // Wrapper
     #wrapper
-
-        // USER LIST
-        h2 User List
+        #userInfo
+            h2 User Info
+            p
+                strong Name:
+                |  <span id='userInfoName'></span>
+                br
+                strong Age:
+                |  <span id='userInfoAge'></span>
+                br
+                strong Gender:
+                |  <span id='userInfoGender'></span>
+                br
+                strong Location:
+                |  <span id='userInfoLocation'></span>
+    
         #userList
+            h2 User List
             table
                 thead
                     th Username
                     th Email
                     th Delete
                 tbody
-        // /USER LIST
-
-    // /WRAPPER
